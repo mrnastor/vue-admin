@@ -296,6 +296,8 @@
   </div>
 </template>
 
+<script></script>
+
 <style lang="scss">
 .table-responsive {
   display: block;

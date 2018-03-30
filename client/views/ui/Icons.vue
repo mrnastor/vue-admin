@@ -57,6 +57,8 @@
   </div>
 </template>
 
+<script></script>
+
 <style lang="scss">
 $mdi-font-path: '~mdi/fonts/';
 @import "~mdi/scss/materialdesignicons.scss";
