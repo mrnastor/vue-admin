@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Settings > Voice is a Vue instance 1`] = `
+exports[`Tables is a Vue instance 1`] = `
 <div>
   <div class="tile is-ancestor">
     <div class="tile is-parent">

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="tile is-ancestor">
-      <!-- <div class="tile is-parent is-8">
+      <div class="tile is-parent is-8">
         <article class="tile is-child box">
         <p class="title control" :class="{'is-loading': isloading}">
           Price History of {{params.symbol}}
@@ -11,7 +11,7 @@
         </p>
         <chart :type="'line'" :data="stockData" :options="options"></chart>
       </article>
-      </div> -->
+      </div>
       <div class="tile is-parent is-4">
         <article class="tile is-child box">
           <div class="block">

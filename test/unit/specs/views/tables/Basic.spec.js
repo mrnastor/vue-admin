@@ -5,7 +5,7 @@ import flushPromises from 'flush-promises'
 import { createRenderer } from 'vue-server-renderer'
 import Basic from '@/views/tables/Basic'
 
-describe('Settings > Voice', () => {
+describe('Tables', () => {
     let store
     let actions
     let state
@@ -17,21 +17,11 @@ describe('Settings > Voice', () => {
         localVue = createLocalVue()
         localVue.use(Vuex)
 
-        state = { 
-            settings: {
-                voice: {
-                    pitch: 1,
-                    rate: 2,
-                    volume: 3
-                }
-            }
-        }
+        state = {}
         actions = {
             sample: jest.fn()
         }
-        getters = {
-          settings: () => state.settings,
-        }
+        getters = {}
 
         store = new Vuex.Store({
           actions,
@@ -45,10 +35,7 @@ describe('Settings > Voice', () => {
     it('is a Vue instance', () => {
         wrapper = shallow(Basic, { 
             store, 
-            localVue,
-            stubs: {
-              chart: '<div>Chart Stub</div>'
-            }
+            localVue
         })
         expect(wrapper.isVueInstance()).toBeTruthy()
 

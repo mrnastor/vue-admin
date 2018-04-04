@@ -25,6 +25,7 @@ module.exports = {
     "html",
     "text-summary"
   ],
+  testResultsProcessor: "jest-junit",
   collectCoverageFrom: [
     'client/**/*.{js,vue}',
     '!client/main.js',
