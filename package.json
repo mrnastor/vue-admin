@@ -132,5 +132,13 @@
     "webpack-dev-middleware": "^2.0",
     "webpack-hot-middleware": "^2.14.0",
     "webpack-merge": "^4.0.0"
+  },
+  "jest-junit": {
+    "suiteName": "jest tests",
+    "output": "./test/unit/junit.xml",
+    "classNameTemplate": "{classname}-{title}",
+    "titleTemplate": "{classname}-{title}",
+    "ancestorSeparator": " › ",
+    "usePathForSuiteName": "true"
   }
 }
