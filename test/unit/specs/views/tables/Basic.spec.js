@@ -3,7 +3,7 @@ import _ from 'lodash'
 import Vuex from 'vuex'
 import flushPromises from 'flush-promises'
 import { createRenderer } from 'vue-server-renderer'
-import Basic from '@/views/axios'
+import Basic from '@/views/tables/Basic'
 
 describe('Settings > Voice', () => {
     let store

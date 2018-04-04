@@ -57,7 +57,8 @@
   </div>
 </template>
 
-<script></script>
+<script>
+</script>
 
 <style lang="scss">
 $mdi-font-path: '~mdi/fonts/';
