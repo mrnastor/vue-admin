@@ -41,4 +41,4 @@ jobs:
           destination: cov      
 
       - store_test_results:
-          path: test/unit/junit.xml
+          path: test
