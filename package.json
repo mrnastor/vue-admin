@@ -136,7 +136,7 @@
   },
   "jest-junit": {
     "suiteName": "jest tests",
-    "output": "./test/unit/junit.xml",
+    "output": "./test/unit/coverage/junit.xml",
     "classNameTemplate": "{classname}-{title}",
     "titleTemplate": "{classname}-{title}",
     "ancestorSeparator": " › ",

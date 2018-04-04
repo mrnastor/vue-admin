@@ -36,5 +36,9 @@ jobs:
       # run tests!
       - run: yarn test --ci --testResultsProcessor="jest-junit"
 
+      - store_artifacts:
+          path: test/unit/coverage
+          destination: cov      
+
       - store_test_results:
           path: test/unit/junit.xml
