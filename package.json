@@ -31,6 +31,7 @@
     "lint": "eslint --ext .js .vue client/*",
     "lint:fix": "eslint --fix --ext .js .vue electron.js client/* build/* config/*",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
+    "start": "node server.js",
     "test": "npm run unit"
   },
   "dependencies": {
