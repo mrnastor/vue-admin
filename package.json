@@ -19,7 +19,7 @@
     "vue"
   ],
   "engines": {
-    "node": ">=4",
+    "node": "8.11.x",
     "npm": ">=3"
   },
   "scripts": {
